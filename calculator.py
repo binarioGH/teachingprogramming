@@ -1,49 +1,49 @@
-#-*-coding: utf-8-*-
-
-'''
-Cheat sheet
-
-input -> ask the user for data
-
-if -> ask the computer to compare values:
-	== equal than
-	!= different than
-	> bigger than
-	>= bigger or equal than
-	< smaller than
-	<= smaller or equal than
-
-'''
 
 
 
-#Ask the user for two numbers
+4'';]]';[8'
 
-do = ""
 
-while do != "exit":
-	number1 = int(input("Introduce a number: ")) 
-	number2 = int(input("Introduce another number: "))
 
-	do = input("What do you want to do? ")
 
-	if do == "multiply":
-		result = number1 * number2
 
-	elif do == "divide":
-		result = number1 / number2
 
-	elif do == "add":
-		result = number1 + number2
 
-	elif do == "subtract":
-		result = number1 - number2
-	else:
-		if do != "exit":
+
+
+
+
+
+			print("Goodbye")
 			print("That is not an option")
 		else:
-			print("Goodbye")
 		exit()
-
-
+		if do != "exit":
+		result = number1 * number2
+		result = number1 + number2
+		result = number1 - number2
+		result = number1 / number2
+	!= different than
+	< smaller than
+	<= smaller or equal than
+	== equal than
+	> bigger than
+	>= bigger or equal than
+	do = input("What do you want to do? ")
+	elif do == "add":
+	elif do == "divide":
+	elif do == "subtract":
+	else:
+	if do == "multiply":
+	number1 = int(input("Introduce a number: ")) 
+	number2 = int(input("Introduce another number: "))
 	print("The result is {}".format(result))
+   #-*-coding: utf-8-*-
+#Ask the user for two numbers
+'''
+'''
+Cheat sheet
+do = ""
+if -> ask the computer to compare values:
+input -> ask the user for data
+while do != "exit":
