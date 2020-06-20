@@ -1,0 +1,41 @@
+
+###########################################################################
+
+string - When you iterate over it, it is divded character letter by letter:
+
+"Hola" - ["H", "o", "l", "a"]
+
+
+###########################################################################
+
+List - A set of values arranged from 0 to the lenght of it minus 1.
+
+Mylist = [1, 2, "3", 4]
+
+Mylist[0] == 1 
+Mylist[1] == 2
+Mylist[2] == "3"
+Mylist[3] == 4
+
+You can have different types of value in the same list, and you can add and remove values.
+
+
+###########################################################################
+
+Tuples - They are the same as lists, but you can not modify them.
+
+Mytuple = (1,2,3,4,5)
+
+Mytuple[3] == 4 #This is an example
+
+###########################################################################
+
+Dictionaries - A set of values indexed by a name given by the programmer.
+
+MyDictionary = {"My Index": "My value", "Another Index": "Another value"}
+
+MyDictionary["My Index"] == "My value"
+
+MyDictionary["Another Index"] == "Another value"
+
+You can think of it like declaring variables inside a list.

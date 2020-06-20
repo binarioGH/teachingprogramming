@@ -1,0 +1,18 @@
+
+Note: Folder == Directory
+
+
+##CMD basic commands.
+
+cd [folder name] - Change to a different directory
+
+dir - Show content of the current directory || write ls if you are using linux or mac
+
+cls - clear screen || write clear if you are using linux or mac
+
+mkdir [folder name] - Make a directory
+
+rmdir [folder name] - Remove a directory
+
+python [.py file] - Execute a python program on the command line.
+

@@ -1,0 +1,22 @@
+
+
+###########Arithmetic operators
+
+
++ ~ Addition
+- ~ Substraction
+* ~ Multiplication
+/ ~ Division
+% ~ Modulo
+
+
+###########Logic Operators
+
+
+
+== ~ Equal
+!= ~ Different
+> ~ Bigger than 
+< ~ Smaller than
+>= ~ Bigger or equal than
+<= ~ Smaller or equal than 
