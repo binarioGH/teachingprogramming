@@ -1,49 +1,38 @@
+#-*-coding: utf-8-*-
+
+operation = ""
+
+
+while operation != "exit":
+	print("Choose from the following operations: addition, subtraction, multiplication, division.")
+	operation = input("What operation will you use?")
+	operations = ("addition", "subtraction", "multiplication", "division")
+
+	if operation in operations:
+
+		num_1 = int(input("What is your first number?"))
+		num_2 = int(input("What is your second number?"))
+		
+		if operation == "addition":
+			result = num_1 + num_2
+
+
+		elif operation == "subtraction":
+			result = num_1 - num_2
+		
+
+		elif operation == "multiplication":
+			result = num_1 * num_2
+
+
+		elif operation == "division":
+			result = num_1 / num_2	
 
 
 
-4'';]]';[8'
+		print(result)
 
-
-
-
-
-
-
-
-
-
-
-
-			print("Goodbye")
-			print("That is not an option")
-		else:
-		exit()
-		if do != "exit":
-		result = number1 * number2
-		result = number1 + number2
-		result = number1 - number2
-		result = number1 / number2
-	!= different than
-	< smaller than
-	<= smaller or equal than
-	== equal than
-	> bigger than
-	>= bigger or equal than
-	do = input("What do you want to do? ")
-	elif do == "add":
-	elif do == "divide":
-	elif do == "subtract":
 	else:
-	if do == "multiply":
-	number1 = int(input("Introduce a number: ")) 
-	number2 = int(input("Introduce another number: "))
-	print("The result is {}".format(result))
-   #-*-coding: utf-8-*-
-#Ask the user for two numbers
-'''
-'''
-Cheat sheet
-do = ""
-if -> ask the computer to compare values:
-input -> ask the user for data
-while do != "exit":
+		print("That operation is not in the list.")
+
+
